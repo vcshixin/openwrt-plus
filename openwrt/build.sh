@@ -1,4 +1,7 @@
 #!/bin/bash -e
+export KERNEL_CLANG_LTO=y
+export BUILD_FAST=y
+export LAN=192.168.31.3
 export RED_COLOR='\e[1;31m'
 export GREEN_COLOR='\e[1;32m'
 export YELLOW_COLOR='\e[1;33m'
